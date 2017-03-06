@@ -1,2 +1,2 @@
 # CSAPP
-some note of learning CSAPP
+some notes of learning CSAPP
