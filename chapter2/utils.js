@@ -61,3 +61,11 @@ util.printHex([0x52, 0xac, 0xe7]);
 util.printBinary(['00110111', '10001000', '11110011']);
 
 util.printDecemal([167, 62, 188]);
+
+function toHex (str) {
+  return '0x' + str.toString(16)
+}
+console.info(toHex(0x503c + 0x8))
+console.info(toHex(0x503c - 0x40))
+console.info(toHex(0x503c + 64))
+console.info(toHex(0x50ea -  0x503c))
